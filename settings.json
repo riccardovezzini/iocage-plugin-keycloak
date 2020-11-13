@@ -1,0 +1,14 @@
+{
+	"servicerestart":":",
+	"options": {
+		"port": {
+			"type": "int",
+			"name": "Quassel Core Port",
+			"description": "Port for incoming quassel connections",
+			"range": "1024-32000",
+			"default": "4242",
+			"requirerestart": true
+		},
+
+	}
+}
